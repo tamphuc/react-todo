@@ -1,0 +1,18 @@
+.card {
+    cursor: pointer;
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 6px rgba(192,192,192, 0.5);
+    margin-bottom: 20px;
+}
+
+.card h1 {
+    font-size: 20px;
+}
+
+.card:hover {
+    border-color: black;
+    box-shadow: 4px 8px rgba(192,192,192, 0.8);
+}
